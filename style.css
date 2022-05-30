@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.toolBar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toolBar h2 {
+    padding: 5px;
+}
+
+.toolBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.toolBar ul li {
+    margin-left: 20px;
+    padding: 10px 4px 8px;
+    font-size: 20px;
+}
+
+.toolBar ul li:hover {
+    border-bottom: 2px solid #84b6f4;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.colorTitulo {
+    width: 560px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #1B1A1C;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo .colorTitulo h1 {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 5px;
+}
+
+.titulo .colorTitulo span {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo button {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.titulo button:hover {
+    transition: 1s;
+    background-color: #1B1A1C;
+    color: white;
+}
+.titulo button:active {
+    transition: none;
+    background-color: #423e46be;
+    color: white;
+}
+
